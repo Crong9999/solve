@@ -1,20 +1,9 @@
-BruteForce 3.0 F
-Greedy 1.0 F
-DivideandConquer 2.0 F
-DynamicProgramming 3.0 F
-DepthFirstSearch 4.0 F
-BreadthFirstSearch 3.0 F
-ShortestPath 4.0 F
-DisjointSet 2.0 F
-MinimumSpanningTree 2.0 F
-TopologicalSorting 1.0 F
-LeastCommonAncestor 2.0 F
-SegmentTree 4.0 F
-EulerTourTechnique 3.0 F
-StronglyConnectedComponent 2.0 F
-BipartiteMatching 2.0 F
-MaximumFlowProblem 3.0 F
-SuffixArray 1.0 F
-HeavyLightDecomposition 4.0 F
-CentroidDecomposition 3.0 F
-SplayTree 1.0 D0
+3 23 85 34 17 74 25 52 65
+10 7 39 42 88 52 14 72 63
+87 42 18 78 53 45 18 84 53
+34 28 64 85 12 16 75 36 55
+21 77 45 35 28 75 90 76 1
+25 87 65 15 28 11 37 28 74
+65 27 75 41 7 89 78 64 39
+47 47 70 45 23 65 3 41 44
+87 13 82 38 31 12 29 29 80
