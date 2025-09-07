@@ -23,8 +23,24 @@ void solve()
         cin >> k;
         cin >> n;
 
-        
+        vector<vector<int>> v(k+1, vector<int>(15, 0));
 
+        // init zero floor.
+        for (int i = 1; i <= 14; ++i)
+        {
+            v[0][i] = i;
+        }
+
+        //A[k][n] = A[k][n-1] + A[k-1][n]
+        for (int i = 1; i <= k; ++i)
+        {
+            for (int j = 1; j <= 14; ++j)
+            {
+                v[i][j] = v[i][j - 1] + v[i - 1][j];
+            }
+        }
+
+        cout << v[k][n] << "\n";
 
         t--;
     }
