@@ -1,3 +1,11 @@
 {
-    "debug.onTaskErrors": "showErrors"
+    "debug.onTaskErrors": "showErrors",
+    "files.associations": {
+        "deque": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "chrono": "cpp",
+        "span": "cpp",
+        "type_traits": "cpp"
+    }
 }
